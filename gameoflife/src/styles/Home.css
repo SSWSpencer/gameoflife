@@ -1,0 +1,83 @@
+body{
+    background: rgb(0, 104, 104);
+}
+
+.TitleWrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2%;
+    border-bottom: 1px solid rgb(0, 104, 104);
+}
+
+.Explanation{
+    width: 30%;
+}
+
+.Explanation .GoButton{
+    padding: 3% 5%;
+    margin: 1% auto;
+    border: 2px solid rgb(0, 104, 104);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    background: rgb(0, 255, 255);
+}
+
+.Explanation .GoButton:hover{
+    background: rgb(170, 255, 255)
+}
+
+.Explanation a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.LogoWrapper{
+    width: 50%;
+    position: relative;
+    text-align: center;
+}
+
+.LogoWrapper img{
+    border-radius: 50%;
+    border: 5px solid rgb(0, 104, 104);
+}
+
+.LogoWrapper h1{
+    line-height: 120%;
+    font-size: 4rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.InfoWrapperTop{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(0, 104, 104);
+}
+
+.InfoWrapperBottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.InfoBox{
+    width: 45%;
+    padding: 2%;
+}
+
+.InfoBox p{
+    text-align: left;
+}
+
+.InfoBox a{
+    color: black;
+}
+
+#HTPnote{
+    font-style: italic;
+}
