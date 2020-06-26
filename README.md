@@ -7,3 +7,6 @@ Additional Features:
 
 Note on speed control:
 It is not 100% accurate, but it provides a good baseline for the speed at which it iterates
+
+Stretch Goal: 
+Deploy website to a hosting platform
